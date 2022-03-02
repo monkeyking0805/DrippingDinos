@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.skewBar {
+  width: 100%;
+  background: #424242;
+  z-index: 999999;
+  bottom: 0;
+  /* transform-origin: left bottom; */
+  /* transform: skewY(-3deg); */
+}
+
+.roadmapLineRight {
+  height: 10px;
+  background: #424242;
+  bottom: 0;
+  transform-origin: left bottom;
+}
+
+.roadmapLineRight-active {
+  height: 10px;
+  background: #ca3bfd;
+  bottom: 0;
+  transform-origin: left bottom;
+}
+
+.roadmapLineLeft {
+  height: 10px;
+  background: #424242;
+  bottom: 0;
+  transform-origin: right bottom;
+}
+
+.roadmapLineLeft-active {
+  height: 10px;
+  background: #ca3bfd;
+  bottom: 0;
+  transform-origin: right bottom;
+}
+
+.roadmapLine-vertical {
+  width: 5px;
+  background: #424242;
+  border-radius: 5px
+}
+
+.roadmapLine-vertical-active {
+  width: 5px;
+  background: #ca3bfd;
+  border-radius: 5px
+}
